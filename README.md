@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[![Node.js CI](https://github.com/juanlu-sanz/playground/actions/workflows/build.yml/badge.svg)](https://github.com/juanlu-sanz/playground/actions/workflows/build.yml)
+[![Build status](https://github.com/juanlu-sanz/playground/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/juanlu-sanz/playground/actions/workflows/build.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
