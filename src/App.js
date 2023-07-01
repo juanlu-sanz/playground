@@ -1,5 +1,6 @@
 import './App.css';
 import {Routes, Route, Link} from 'react-router-dom';
+import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Focus from './components/Focus'
 import ClickCounter from './components/ClickCounter';
@@ -8,8 +9,11 @@ import Assets from './components/Assets';
 
 
 function App() {
+
   return (
     <div className="App">
+      <Header></Header>
+
       <nav>
         <Link to="/" className="nav-item">Homepage</Link>
         <Link to="/focus" className="nav-item">Focus</Link>
@@ -25,7 +29,14 @@ function App() {
         <Route path="/dark-light-mode" element={DarkLightMode}/>
         <Route path="/assets" element={Assets}/>
       </Routes>
-      
+
+      <Homepage></Homepage>
+      <Focus></Focus>
+      <ClickCounter></ClickCounter>
+      <DarkLightMode></DarkLightMode>
+      <Assets>
+        
+      </Assets>
     </div>
   );
 }
